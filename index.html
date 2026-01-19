@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Jogo de Adivinhação</title>
+</head>
+<body>
+    <header>
+        <h1>Jogo da Adivinhação</h1>
+    </header>
+
+    <main>
+       
+        <article>
+            <ol>
+            
+                <li>O jogo da adivinhação funciona de forma simples e interativa. Ao iniciar o jogo, 
+                o sistema gera automaticamente um número aleatório entre 1 e 100.
+            </li>
+
+            
+                <li>A cada tentativa, o jogador digita um número. O jogo informa se o valor chutado
+                é maior ou menor que o número secreto.</li>
+            
+
+            
+                <li>O jogo termina quando o jogador acerta o número ou quando o limite de tentativas
+                é atingido.</li>
+            </ol>
+        </article>
+        
+
+        <form action="">
+            
+        <input type="number" id="palpite" name="chute" min="1" max="100" required>
+        <button type="button" onclick="chutar()">Chutar</button>
+
+        <p id="resultado"></p>
+        <p id="dicas"></p>
+        <p id="tentativas"></p>
+        </form>
+
+    </main>
+
+</body>
+</html>

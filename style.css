@@ -1,0 +1,47 @@
+/* Remove margens e espaçamentos padrão do navegador */
+* {
+    margin: 0;                 /* Remove margem padrão */
+    padding: 0;                /* Remove padding padrão */
+    box-sizing: border-box;    /* Faz largura/altura incluírem padding e borda */
+}
+
+/* Estilização geral da página */
+body {
+    min-height: 100vh;         /* Garante altura mínima da tela inteira */
+    display: flex;             /* Ativa o Flexbox */
+    flex-direction: column;    /* Organiza os elementos em coluna (um abaixo do outro) */
+    justify-content: center;   /* Centraliza verticalmente */
+    align-items: center;       /* Centraliza horizontalmente */
+    font-family: 'Roboto', sans-serif; /* Define a fonte do site */
+    background-color: rgb(250, 247, 244); /* Cor de fundo da página */
+    gap: 25px;                 /* Espaço entre o título e o card */
+}
+
+/* Estilização do título */
+header h1 {
+    text-align: center;        /* Centraliza o texto */
+    font-size: 32px;           /* Tamanho da fonte do título */
+}
+
+/* Estilização do card principal */
+main {
+    background-color: #fffaf5; /* Cor de fundo do card */
+    padding: 30px;             /* Espaçamento interno do card */
+    border-radius: 15px;       /* Arredonda as bordas */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Sombra suave */
+    max-width: 500px;          /* Largura máxima do card */
+    width: 100%;               /* Ocupa toda a largura disponível até o máximo */
+}
+
+/* Estilização do texto explicativo */
+article {
+    text-align: center;        /* Centraliza o texto do artigo */
+}
+
+/* Estilização do formulário */
+form {
+    margin-top: 20px;          /* Espaço acima do formulário */
+    display: flex;             /* Ativa Flexbox no formulário */
+    justify-content: center;   /* Centraliza input e botão */
+    gap: 10px;                 /* Espaço entre input e botão */
+}
